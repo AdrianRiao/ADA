@@ -1,0 +1,23 @@
+Para instalar en Linux la biblioteca Lower_Layer:
+================================================
+
+0. En las aulas Linux Lower_Layer ya está instalado. Estas instrucciones
+son para instalarlo en otros ordenadores. Lower_Layer sólo funciona con
+el sistema operativo Linux.
+
+
+1. Descargar lower-layer-3.3.tgz. Seleccionar "Guardar Archivo". Supondremos que el fichero queda guardado
+en la carpeta Descargas debajo de la Carpeta Personal (HOME) del usuario.
+
+2. En una ventana de terminal, escribir lo siguiente:
+    cd /usr/local
+    sudo rm -rf ll
+    sudo tar -xvzf ~/Descargas/lower-layer-3.3.tgz
+    cd ll/lib
+    sudo gnatmake lower_layer_udp.adb
+
+Para compilar en Linux un programa que utilice Lower_Layer:
+==========================================================
+
+    cd mi_carpeta
+    gnatmake -I/usr/local/ll/lib client.adb

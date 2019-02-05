@@ -1,0 +1,63 @@
+V "GNAT Lib v4.9"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U cuenta_monedas%b	cuenta_monedas.adb	4c1bfde1 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.concat_5%s	s-conca5.adb		s-conca5.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-stream.ads		20140122164720 1a984740
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D cuenta_monedas.adb	20170911120124 74760835
+D interfac.ads		20140225151838 69adb1b9
+D i-cstrea.ads		20130412125801 8128536b
+D system.ads		20160213141829 90249111
+D s-conca5.ads		20140225151544 875e432e
+D s-crtl.ads		20140225151544 840e6817
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-imgint.ads		20090409150019 02dbe0c2
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-wchcon.ads		20140225151139 1b7d22d2
+X 1 ada.ads
+16K9*Ada 19e8 9|1r6 48r9
+X 7 a-textio.ads
+49K13*Text_IO 471e16 9|1w10 48r13
+263U14*Put_Line 9|48s21
+X 9 cuenta_monedas.adb
+6U11*Cuenta_Monedas 6b11 52l5 52t19
+8A14 Monedas(natural)<integer> 10r39 38r14
+10U19 Calcular_Cent 10b19 10>34 10<47 36l13 36t26 45s9
+10a34 Mon{8A14} 17r55 19r55 21r55 23r55 25r55 27r55 29r55 31r55
+10i47 Cent{integer} 12m9 17m41 17r48 19m41 19r48 21m41 21r48 23m41 23r48
+. 25m41 25r48 27m41 27r48 29m41 29r48 31m41 31r48
+13i21 Contador{integer} 15r30 17r59 19r59 21r59 23r59 25r59 27r59 29r59 31r59
+38a9 Mon{8A14} 45r24
+39i9 CentTotal{integer} 45m29 46r15 47r16
+40i9 Cent{integer} 47m9 49r79
+41i9 Eur{integer} 46m9 48r66
+
